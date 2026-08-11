@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "archive",
+      "type": "text",
+      "text": "# آرشیو اصلی\n۱۰ Notebook + یک فایل Python\nبدون حذف یا بازنویسی",
+      "x": 0,
+      "y": 0,
+      "width": 330,
+      "height": 170,
+      "color": "5"
+    },
+    {
+      "id": "inventory",
+      "type": "file",
+      "file": "docs/inventory/README.md",
+      "x": 430,
+      "y": 0,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "topics",
+      "type": "file",
+      "file": "docs/inventory/topic_map.md",
+      "x": 900,
+      "y": -180,
+      "width": 360,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "risks",
+      "type": "file",
+      "file": "docs/inventory/contradictions_and_risks.md",
+      "x": 900,
+      "y": 120,
+      "width": 360,
+      "height": 220,
+      "color": "1"
+    },
+    {
+      "id": "strong",
+      "type": "text",
+      "text": "# مسیر قوی\nزبان محدود → ساختار صوری → حافظهٔ دارای منشأ → منطق محدود → تناقض → بازنگری کنترل‌شده",
+      "x": 1400,
+      "y": -260,
+      "width": 420,
+      "height": 230,
+      "color": "4"
+    },
+    {
+      "id": "weak",
+      "type": "text",
+      "text": "# مسیر ضعیف\nشروع هم‌زمان فلسفه، دین، حس، زبان و خودآگاهی → کد hard-coded → ادعای بزرگ بدون آزمون",
+      "x": 1400,
+      "y": 80,
+      "width": 420,
+      "height": 230,
+      "color": "1"
+    },
+    {
+      "id": "next",
+      "type": "file",
+      "file": "docs/knowledge_map/research_dashboard.md",
+      "x": 1940,
+      "y": -180,
+      "width": 390,
+      "height": 240,
+      "color": "6"
+    },
+    {
+      "id": "mvp",
+      "type": "text",
+      "text": "# خروجی هدف بعدی\nSpecification کوچک\nمجموعه‌آزمون\nMVP متنی توضیح‌پذیر",
+      "x": 1940,
+      "y": 170,
+      "width": 390,
+      "height": 190,
+      "color": "3"
+    },
+    {
+      "id": "philosophy",
+      "type": "text",
+      "text": "# فلسفه و مبانی دینی\nحفظ در آرشیو پژوهش\nورود به کد فقط پس از تبدیل به فرضیهٔ آزمون‌پذیر",
+      "x": 900,
+      "y": 430,
+      "width": 410,
+      "height": 200,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "archive",
+      "fromSide": "right",
+      "toNode": "inventory",
+      "toSide": "left",
+      "label": "فهرست و حفظ"
+    },
+    {
+      "id": "e2",
+      "fromNode": "inventory",
+      "fromSide": "right",
+      "toNode": "topics",
+      "toSide": "left",
+      "label": "دسته‌بندی"
+    },
+    {
+      "id": "e3",
+      "fromNode": "inventory",
+      "fromSide": "right",
+      "toNode": "risks",
+      "toSide": "left",
+      "label": "نقد"
+    },
+    {
+      "id": "e4",
+      "fromNode": "topics",
+      "fromSide": "right",
+      "toNode": "strong",
+      "toSide": "left",
+      "label": "قابل‌آزمایش"
+    },
+    {
+      "id": "e5",
+      "fromNode": "risks",
+      "fromSide": "right",
+      "toNode": "weak",
+      "toSide": "left",
+      "label": "رد در شکل فعلی"
+    },
+    {
+      "id": "e6",
+      "fromNode": "strong",
+      "fromSide": "right",
+      "toNode": "next",
+      "toSide": "left",
+      "label": "استخراج ادعاها"
+    },
+    {
+      "id": "e7",
+      "fromNode": "next",
+      "fromSide": "bottom",
+      "toNode": "mvp",
+      "toSide": "top",
+      "label": "پس از تکمیل"
+    },
+    {
+      "id": "e8",
+      "fromNode": "philosophy",
+      "fromSide": "right",
+      "toNode": "strong",
+      "toSide": "bottom",
+      "label": "فقط با فرضیه و آزمون"
+    },
+    {
+      "id": "e9",
+      "fromNode": "weak",
+      "fromSide": "bottom",
+      "toNode": "philosophy",
+      "toSide": "right",
+      "label": "بازگردانی به پژوهش"
+    }
+  ]
+}
