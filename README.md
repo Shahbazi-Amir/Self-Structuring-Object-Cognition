@@ -6,17 +6,25 @@
 
 - نسخهٔ اصلی تا Commit `8fbfa4601641571b08171d44fbc0a3b75324d8e4` در شاخهٔ `archive/original-2026-08-11` ثابت شده است.
 - هیچ‌یک از Notebookها یا فایل‌های اصلی در مرحلهٔ فهرست‌برداری حذف، جابه‌جا یا بازنویسی نشده‌اند.
-- اسناد این پوشه «نمایه و نقد» هستند و جای منبع اصلی را نمی‌گیرند.
+- اسناد جدید «نمایه و نقد» هستند و جای منبع اصلی را نمی‌گیرند.
 
 ## از کجا شروع کنیم؟
 
-1. [فهرست فایل‌ها](inventory/file_inventory.md)
-2. [نقشهٔ موضوعی](inventory/topic_map.md)
-3. [نمایهٔ سلول‌ها](inventory/cell_index.md)
-4. [تناقض‌ها و ریسک‌ها](inventory/contradictions_and_risks.md)
-5. [ارزیابی فنی کد](inventory/technical_findings.md)
-6. [منابع نیازمند راستی‌آزمایی](inventory/references_to_verify.md)
+1. [نقشهٔ دانشی و راهنمای Obsidian](docs/knowledge_map/README.md)
+2. [نقشهٔ دیداری مسیر پروژه](docs/knowledge_map/SSOC_Project_Map.canvas)
+3. [داشبورد وضعیت واقعی کار](docs/knowledge_map/research_dashboard.md)
+4. [مسیر قوی و مسیرهای ضعیف](docs/knowledge_map/project_flow.md)
+5. [فهرست فایل‌ها](docs/inventory/file_inventory.md)
+6. [نقشهٔ موضوعی](docs/inventory/topic_map.md)
+7. [نمایهٔ سلول‌ها](docs/inventory/cell_index.md)
+8. [تناقض‌ها و ریسک‌ها](docs/inventory/contradictions_and_risks.md)
+9. [ارزیابی فنی کد](docs/inventory/technical_findings.md)
+10. [منابع نیازمند راستی‌آزمایی](docs/inventory/references_to_verify.md)
 
-## قاعدهٔ این مرحله
+## وضعیت مرحله
+
+مرحلهٔ حفظ نسخهٔ اصلی و فهرست‌برداری سطح اول تمام شده است. دسته‌بندی علمی عمیقِ تک‌تک ادعاها، استدلال‌ها و نتیجه‌گیری‌ها هنوز انجام نشده و نباید این اسناد را نظریهٔ نهایی تلقی کرد.
+
+## قاعدهٔ کار
 
 اصل محتوا حفظ می‌شود. «گفتهٔ کاربر»، «پاسخ تولیدشده»، «ادعا»، «فرضیه»، «کد» و «نتیجهٔ واقعی اجرا» در مراحل بعد از هم جدا می‌شوند. هیچ ادعایی صرفاً به دلیل تکرارشدن در چند Notebook معتبر تلقی نمی‌شود.
