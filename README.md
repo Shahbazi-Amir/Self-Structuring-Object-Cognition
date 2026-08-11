@@ -21,10 +21,25 @@
 9. [تناقض‌ها و ریسک‌ها](docs/inventory/contradictions_and_risks.md)
 10. [ارزیابی فنی کد](docs/inventory/technical_findings.md)
 11. [منابع نیازمند راستی‌آزمایی](docs/inventory/references_to_verify.md)
+12. [راهبرد ساخت هستهٔ بدیهیات عقلی](docs/knowledge_map/rational_core_strategy.md)
+13. [مشخصات اجرایی نسخهٔ ۰٫۱](specs/rational_core_v0_1.md)
+14. [واژه‌نامهٔ عملیاتی](specs/glossary.md)
+15. [آزمایش ۰۱: تناقض](specs/experiment_01.md)
+16. [نتیجهٔ آزمایش ۰۱](docs/experiments/experiment_01_result.md)
 
 ## وضعیت مرحله
 
-مرحلهٔ حفظ نسخهٔ اصلی و فهرست‌برداری سطح اول تمام شده است. دسته‌بندی علمی عمیقِ تک‌تک ادعاها، استدلال‌ها و نتیجه‌گیری‌ها هنوز انجام نشده و نباید این اسناد را نظریهٔ نهایی تلقی کرد.
+مرحلهٔ حفظ نسخهٔ اصلی و فهرست‌برداری سطح اول تمام شده است. نسخهٔ آزمایشی ۰٫۱ هسته نیز به‌صورت یک بستهٔ مستقل و قطعی ساخته شده است. این نسخه فقط تناقض مستقیم را در ورودی کنترل‌شده می‌آزماید و نباید نظریهٔ نهایی یا شاهد فهم عمومی تلقی شود.
+
+## اجرای نسخهٔ ۰٫۱
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+PYTHONPATH=src python -m rational_core examples/contradiction.json --pretty
+PYTHONPATH=src:. python scripts/run_experiment_01.py
+```
+
+بستهٔ جدید وابستگی اجرایی خارجی ندارد. فایل `aristotle_logic.py` و Notebookهای اصلی برای حفظ آرشیو تغییر نکرده‌اند.
 
 ## قاعدهٔ کار
 
