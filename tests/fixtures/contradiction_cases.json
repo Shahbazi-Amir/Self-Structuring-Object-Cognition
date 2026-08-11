@@ -1,0 +1,98 @@
+[
+  {
+    "case_id": "C01_exact_contradiction",
+    "expected": "contradictory",
+    "propositions": [
+      {"id": "p1", "subject": "چراغ", "relation": "روشن است", "object": "بله", "polarity": "affirm", "context": "اتاق یک", "time": "اکنون", "source": "آزمایش"},
+      {"id": "p2", "subject": "چراغ", "relation": "روشن است", "object": "بله", "polarity": "deny", "context": "اتاق یک", "time": "اکنون", "source": "آزمایش"}
+    ]
+  },
+  {
+    "case_id": "C02_same_polarity",
+    "expected": "consistent",
+    "propositions": [
+      {"id": "p1", "subject": "الف", "relation": "عضو", "object": "ب", "polarity": "affirm", "context": "مدل", "time": "t1", "source": "s1"},
+      {"id": "p2", "subject": "الف", "relation": "عضو", "object": "ب", "polarity": "affirm", "context": "مدل", "time": "t1", "source": "s2"}
+    ]
+  },
+  {
+    "case_id": "C03_different_time",
+    "expected": "consistent",
+    "propositions": [
+      {"id": "p1", "subject": "در", "relation": "باز", "object": "بله", "polarity": "affirm", "context": "خانه", "time": "صبح", "source": "s1"},
+      {"id": "p2", "subject": "در", "relation": "باز", "object": "بله", "polarity": "deny", "context": "خانه", "time": "شب", "source": "s2"}
+    ]
+  },
+  {
+    "case_id": "C04_different_context",
+    "expected": "consistent",
+    "propositions": [
+      {"id": "p1", "subject": "عدد یک", "relation": "عضو", "object": "مجموعه", "polarity": "affirm", "context": "مجموعه الف", "time": "ثابت", "source": "s1"},
+      {"id": "p2", "subject": "عدد یک", "relation": "عضو", "object": "مجموعه", "polarity": "deny", "context": "مجموعه ب", "time": "ثابت", "source": "s2"}
+    ]
+  },
+  {
+    "case_id": "C05_missing_time",
+    "expected": "indeterminate",
+    "propositions": [
+      {"id": "p1", "subject": "در", "relation": "باز", "object": "بله", "polarity": "affirm", "context": "خانه", "time": null, "source": "s1"},
+      {"id": "p2", "subject": "در", "relation": "باز", "object": "بله", "polarity": "deny", "context": "خانه", "time": "شب", "source": "s2"}
+    ]
+  },
+  {
+    "case_id": "C06_missing_context",
+    "expected": "indeterminate",
+    "propositions": [
+      {"id": "p1", "subject": "چراغ", "relation": "روشن است", "object": "بله", "polarity": "affirm", "context": null, "time": "اکنون", "source": "s1"},
+      {"id": "p2", "subject": "چراغ", "relation": "روشن است", "object": "بله", "polarity": "deny", "context": "اتاق دو", "time": "اکنون", "source": "s2"}
+    ]
+  },
+  {
+    "case_id": "C07_different_subject",
+    "expected": "consistent",
+    "propositions": [
+      {"id": "p1", "subject": "چراغ یک", "relation": "روشن است", "object": "بله", "polarity": "affirm", "context": "خانه", "time": "اکنون", "source": "s1"},
+      {"id": "p2", "subject": "چراغ دو", "relation": "روشن است", "object": "بله", "polarity": "deny", "context": "خانه", "time": "اکنون", "source": "s2"}
+    ]
+  },
+  {
+    "case_id": "C08_different_relation",
+    "expected": "consistent",
+    "propositions": [
+      {"id": "p1", "subject": "الف", "relation": "جزء", "object": "ب", "polarity": "affirm", "context": "مدل", "time": "t1", "source": "s1"},
+      {"id": "p2", "subject": "الف", "relation": "مالک", "object": "ب", "polarity": "deny", "context": "مدل", "time": "t1", "source": "s2"}
+    ]
+  },
+  {
+    "case_id": "C09_different_object",
+    "expected": "consistent",
+    "propositions": [
+      {"id": "p1", "subject": "الف", "relation": "جزء", "object": "ب", "polarity": "affirm", "context": "مدل", "time": "t1", "source": "s1"},
+      {"id": "p2", "subject": "الف", "relation": "جزء", "object": "ج", "polarity": "deny", "context": "مدل", "time": "t1", "source": "s2"}
+    ]
+  },
+  {
+    "case_id": "C10_empty_memory",
+    "expected": "consistent",
+    "propositions": []
+  },
+  {
+    "case_id": "C11_contradiction_precedence",
+    "expected": "contradictory",
+    "propositions": [
+      {"id": "p1", "subject": "الف", "relation": "هست", "object": "در جهان", "polarity": "affirm", "context": "مدل", "time": "t1", "source": "s1"},
+      {"id": "p2", "subject": "الف", "relation": "هست", "object": "در جهان", "polarity": "deny", "context": "مدل", "time": "t1", "source": "s2"},
+      {"id": "p3", "subject": "ب", "relation": "هست", "object": "در جهان", "polarity": "affirm", "context": null, "time": "t1", "source": "s3"},
+      {"id": "p4", "subject": "ب", "relation": "هست", "object": "در جهان", "polarity": "deny", "context": "مدل", "time": "t1", "source": "s4"}
+    ]
+  },
+  {
+    "case_id": "C12_unicode_normalization",
+    "expected": "contradictory",
+    "propositions": [
+      {"id": "p1", "subject": "  کل  ", "relation": "دارای", "object": "جزء", "polarity": "affirm", "context": "جهان  آزمون", "time": "t1", "source": "s1"},
+      {"id": "p2", "subject": "کل", "relation": "دارای", "object": "جزء", "polarity": "deny", "context": "جهان آزمون", "time": "t1", "source": "s2"}
+    ]
+  }
+]
+

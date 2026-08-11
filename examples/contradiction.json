@@ -1,0 +1,25 @@
+{
+  "propositions": [
+    {
+      "id": "observation-1",
+      "subject": "چراغ",
+      "relation": "روشن است",
+      "object": "بله",
+      "polarity": "affirm",
+      "context": "اتاق یک",
+      "time": "اکنون",
+      "source": "حسگر یک"
+    },
+    {
+      "id": "observation-2",
+      "subject": "چراغ",
+      "relation": "روشن است",
+      "object": "بله",
+      "polarity": "deny",
+      "context": "اتاق یک",
+      "time": "اکنون",
+      "source": "حسگر دو"
+    }
+  ]
+}
+
