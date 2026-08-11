@@ -26,7 +26,7 @@ updated: 2026-08-11
 - [[docs/inventory/technical_findings|یافته‌های فنی]]
 - [[docs/inventory/references_to_verify|منابع نیازمند راستی‌آزمایی]]
 - [[docs/knowledge_map/project_flow|مسیر قوی و مسیرهای ضعیف]]
-- [[docs/knowledge_map/research_dashboard|داشبورد وضعیت]]
+- [[docs/knowledge_map/research_dashboard|داشبورد وضعیت]]\n- [[docs/knowledge_map/idea_scorecard|کارت امتیاز ایده‌ها]]
 
 ## شیوهٔ خواندن
 
