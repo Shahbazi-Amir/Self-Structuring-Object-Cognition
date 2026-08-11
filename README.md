@@ -13,13 +13,14 @@
 1. [نقشهٔ دانشی و راهنمای Obsidian](docs/knowledge_map/README.md)
 2. [نقشهٔ دیداری مسیر پروژه](docs/knowledge_map/SSOC_Project_Map.canvas)
 3. [داشبورد وضعیت واقعی کار](docs/knowledge_map/research_dashboard.md)
-4. [مسیر قوی و مسیرهای ضعیف](docs/knowledge_map/project_flow.md)\n5. [کارت امتیاز ایده‌ها](docs/knowledge_map/idea_scorecard.md)
-5. [فهرست فایل‌ها](docs/inventory/file_inventory.md)
-6. [نقشهٔ موضوعی](docs/inventory/topic_map.md)
-7. [نمایهٔ سلول‌ها](docs/inventory/cell_index.md)
-8. [تناقض‌ها و ریسک‌ها](docs/inventory/contradictions_and_risks.md)
-9. [ارزیابی فنی کد](docs/inventory/technical_findings.md)
-10. [منابع نیازمند راستی‌آزمایی](docs/inventory/references_to_verify.md)
+4. [مسیر قوی و مسیرهای ضعیف](docs/knowledge_map/project_flow.md)
+5. [کارت امتیاز ایده‌ها](docs/knowledge_map/idea_scorecard.md)
+6. [فهرست فایل‌ها](docs/inventory/file_inventory.md)
+7. [نقشهٔ موضوعی](docs/inventory/topic_map.md)
+8. [نمایهٔ سلول‌ها](docs/inventory/cell_index.md)
+9. [تناقض‌ها و ریسک‌ها](docs/inventory/contradictions_and_risks.md)
+10. [ارزیابی فنی کد](docs/inventory/technical_findings.md)
+11. [منابع نیازمند راستی‌آزمایی](docs/inventory/references_to_verify.md)
 
 ## وضعیت مرحله
 
