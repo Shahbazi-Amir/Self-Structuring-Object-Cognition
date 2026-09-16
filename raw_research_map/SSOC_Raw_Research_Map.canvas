@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {"id":"title","type":"text","text":"# نقشهٔ آرشیو خام SSOC\nفقط بر پایهٔ فایل‌های اولیهٔ خود پروژه\n\nاین نقشه هیچ کد، specification یا نتیجهٔ مرحلهٔ بعدی را وارد نمی‌کند.","x":0,"y":-500,"width":620,"height":220,"color":"6"},
+    {"id":"roadmap","type":"file","file":"1_roadmap.ipynb","x":0,"y":-150,"width":420,"height":260,"color":"5"},
+    {"id":"question","type":"text","text":"# پرسش بازِ اولیه\nآنچه به آگاهی و فهم می‌رساند چیست؟\nعقل؟ فطرت؟ مغز، حافظه و تجربه؟\n\nاین پرسش در یادداشت خام مطرح شده؛ پاسخِ تثبیت‌شده نیست.","x":560,"y":-180,"width":450,"height":250,"color":"6"},
+    {"id":"goal","type":"text","text":"# انگیزهٔ ساخت\nساختن نوع دیگری از هوش مصنوعی\nبا پردازش قابل‌فهم‌تر و الگویی نزدیک‌تر به یادگیری انسان\n\nاین یک جهت پژوهش است، نه ادعای تحقق.","x":560,"y":140,"width":450,"height":230,"color":"4"},
+    {"id":"current-ai","type":"text","text":"# مسیرهای مطالعهٔ مطرح‌شده\nهوش مصنوعی فعلی، مدل‌های مغز/رایانه، بیوهوش، شبکه‌های عصبی و مدل‌های ترکیبی\n\nبرای مقایسه و یافتن محدودیت‌ها.","x":1140,"y":-310,"width":440,"height":240,"color":"3"},
+    {"id":"logic","type":"file","file":"AI-Aristotle.ipynb","x":1140,"y":10,"width":440,"height":230,"color":"4"},
+    {"id":"innate","type":"file","file":"core_of_Innate_knowledge.ipynb","x":1140,"y":310,"width":440,"height":230,"color":"6"},
+    {"id":"conscious","type":"file","file":"intelegence_core.ipynb","x":1700,"y":-310,"width":420,"height":220,"color":"6"},
+    {"id":"reflection","type":"file","file":"reflect.ipynb","x":1700,"y":-20,"width":420,"height":220,"color":"5"},
+    {"id":"motion","type":"file","file":"Essential_Motion.ipynb","x":1700,"y":270,"width":420,"height":220,"color":"3"},
+    {"id":"main-notebook","type":"file","file":"SSOC.ipynb","x":2260,"y":-310,"width":420,"height":220,"color":"5"},
+    {"id":"thinking","type":"file","file":"deep_think.ipynb","x":2260,"y":-20,"width":420,"height":220,"color":"6"},
+    {"id":"book","type":"file","file":"book.ipynb","x":2260,"y":270,"width":420,"height":220,"color":"2"},
+    {"id":"code-notebook","type":"file","file":"code.ipynb","x":2820,"y":-170,"width":420,"height":220,"color":"2"},
+    {"id":"prototype","type":"file","file":"aristotle_logic.py","x":2820,"y":130,"width":420,"height":220,"color":"4"},
+    {"id":"reading-rule","type":"text","text":"# روش خواندن درست\nهر کارت یک فایلِ واقعیِ آرشیو است.\nخط‌ها «ارتباط یا مسیر پیشنهادی در یادداشت‌های خام» هستند؛ نه اثبات و نه معماری نهایی.\n\nبرای دیدن محتوا، روی کارت فایل دوبار کلیک کن.","x":0,"y":550,"width":560,"height":250,"color":"1"}
+  ],
+  "edges": [
+    {"id":"e1","fromNode":"title","fromSide":"bottom","toNode":"roadmap","toSide":"top","label":"نقطهٔ آغاز"},
+    {"id":"e2","fromNode":"roadmap","fromSide":"right","toNode":"question","toSide":"left","label":"پرسش"},
+    {"id":"e3","fromNode":"roadmap","fromSide":"right","toNode":"goal","toSide":"left","label":"انگیزه"},
+    {"id":"e4","fromNode":"question","fromSide":"right","toNode":"current-ai","toSide":"left","label":"بررسی مدل‌ها"},
+    {"id":"e5","fromNode":"question","fromSide":"right","toNode":"logic","toSide":"left","label":"منطق"},
+    {"id":"e6","fromNode":"question","fromSide":"right","toNode":"innate","toSide":"left","label":"فطرت/بدیهیات"},
+    {"id":"e7","fromNode":"current-ai","fromSide":"right","toNode":"conscious","toSide":"left","label":"هوش و آگاهی"},
+    {"id":"e8","fromNode":"current-ai","fromSide":"right","toNode":"reflection","toSide":"left","label":"بازتاب"},
+    {"id":"e9","fromNode":"current-ai","fromSide":"right","toNode":"motion","toSide":"left","label":"حرکت"},
+    {"id":"e10","fromNode":"logic","fromSide":"right","toNode":"main-notebook","toSide":"left","label":"تجمیع"},
+    {"id":"e11","fromNode":"innate","fromSide":"right","toNode":"thinking","toSide":"left","label":"تفکر"},
+    {"id":"e12","fromNode":"reflection","fromSide":"right","toNode":"thinking","toSide":"left","label":"تأمل"},
+    {"id":"e13","fromNode":"motion","fromSide":"right","toNode":"book","toSide":"left","label":"مسیر پژوهش"},
+    {"id":"e14","fromNode":"main-notebook","fromSide":"right","toNode":"code-notebook","toSide":"left","label":"صورت‌بندی کد"},
+    {"id":"e15","fromNode":"code-notebook","fromSide":"bottom","toNode":"prototype","toSide":"top","label":"نمونهٔ اولیه"},
+    {"id":"e16","fromNode":"roadmap","fromSide":"bottom","toNode":"reading-rule","toSide":"top","label":"روش خواندن"}
+  ]
+}
