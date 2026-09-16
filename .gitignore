@@ -4,6 +4,5 @@ __pycache__/
 .pytest_cache/
 .coverage
 
-# Obsidian: share notes and Canvas files, not each user's window layout.
-.obsidian/workspace.json
-.obsidian/workspaces.json
+# Obsidian settings are local to each user's Vault.
+.obsidian/
