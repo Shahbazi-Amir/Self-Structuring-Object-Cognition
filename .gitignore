@@ -1,0 +1,6 @@
+# Obsidian settings are local to each user's Vault.
+.obsidian/
+
+# Python generated files
+__pycache__/
+*.py[cod]
