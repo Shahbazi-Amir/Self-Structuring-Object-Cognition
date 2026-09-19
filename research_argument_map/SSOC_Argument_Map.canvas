@@ -1,0 +1,236 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# نقشهٔ استدلالِ پژوهش خام SSOC\n\nاین نقشه «رابطهٔ معنایی» را نشان می‌دهد.\nهر کارت را باز کن تا سؤال، ادعا، مرز و منبعش را ببینی.\n\nشروع: 00 → 01 → 06",
+      "x": 0,
+      "y": -720,
+      "width": 760,
+      "height": 240,
+      "color": "6"
+    },
+    {
+      "id": "start",
+      "type": "file",
+      "file": "00_شروع_از_مسئله.md",
+      "x": 0,
+      "y": -400,
+      "width": 360,
+      "height": 170,
+      "color": "6"
+    },
+    {
+      "id": "roadmap",
+      "type": "file",
+      "file": "01_مسئله_و_نقشه_راه.md",
+      "x": 0,
+      "y": -140,
+      "width": 360,
+      "height": 170,
+      "color": "5"
+    },
+    {
+      "id": "ssoc",
+      "type": "file",
+      "file": "02_چشم‌انداز_SSOC.md",
+      "x": -500,
+      "y": 150,
+      "width": 360,
+      "height": 170,
+      "color": "5"
+    },
+    {
+      "id": "logic",
+      "type": "file",
+      "file": "03_منطق_ارسطویی_به_عنوان_گزینه.md",
+      "x": 0,
+      "y": 150,
+      "width": 360,
+      "height": 170,
+      "color": "4"
+    },
+    {
+      "id": "foundation",
+      "type": "file",
+      "file": "04_مبانی_فطرت_زبان_و_شناخت.md",
+      "x": 500,
+      "y": 150,
+      "width": 360,
+      "height": 170,
+      "color": "6"
+    },
+    {
+      "id": "bio",
+      "type": "file",
+      "file": "05_مسیر_زیستی_و_حرکت_جوهری.md",
+      "x": 920,
+      "y": 150,
+      "width": 360,
+      "height": 170,
+      "color": "3"
+    },
+    {
+      "id": "bottleneck",
+      "type": "file",
+      "file": "06_هسته_بدیهیات_و_مسئله_ابهام.md",
+      "x": 260,
+      "y": 470,
+      "width": 420,
+      "height": 190,
+      "color": "1"
+    },
+    {
+      "id": "reflect",
+      "type": "file",
+      "file": "07_بازتاب_و_اصلاح_خود.md",
+      "x": -250,
+      "y": 790,
+      "width": 360,
+      "height": 170,
+      "color": "2"
+    },
+    {
+      "id": "arch",
+      "type": "file",
+      "file": "08_معماری_هسته_هوش.md",
+      "x": 260,
+      "y": 790,
+      "width": 360,
+      "height": 170,
+      "color": "4"
+    },
+    {
+      "id": "prototype",
+      "type": "file",
+      "file": "09_نمونه_معماری_SSOC.md",
+      "x": 260,
+      "y": 1060,
+      "width": 360,
+      "height": 170,
+      "color": "0"
+    },
+    {
+      "id": "decision",
+      "type": "file",
+      "file": "10_جمع‌بندی_مسیر_تصمیم.md",
+      "x": 770,
+      "y": 790,
+      "width": 360,
+      "height": 170,
+      "color": "6"
+    },
+    {
+      "id": "code",
+      "type": "file",
+      "file": "11_نمونه_منطق_ارسطویی.md",
+      "x": -250,
+      "y": 470,
+      "width": 360,
+      "height": 170,
+      "color": "0"
+    },
+    {
+      "id": "legend",
+      "type": "file",
+      "file": "12_واژه_نامه_رابطه‌ها.md",
+      "x": 1240,
+      "y": 790,
+      "width": 300,
+      "height": 150,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "start",
+      "toNode": "roadmap",
+      "label": "مسیر خواندن"
+    },
+    {
+      "id": "e2",
+      "fromNode": "roadmap",
+      "toNode": "ssoc",
+      "label": "صورت‌بندی چشم‌انداز"
+    },
+    {
+      "id": "e3",
+      "fromNode": "roadmap",
+      "toNode": "logic",
+      "label": "گزینهٔ صوری"
+    },
+    {
+      "id": "e4",
+      "fromNode": "roadmap",
+      "toNode": "foundation",
+      "label": "مبنای مفهومی"
+    },
+    {
+      "id": "e5",
+      "fromNode": "roadmap",
+      "toNode": "bio",
+      "label": "مسیر جایگزین"
+    },
+    {
+      "id": "e6",
+      "fromNode": "logic",
+      "toNode": "bottleneck",
+      "label": "ناکافی به‌علت ابهام"
+    },
+    {
+      "id": "e7",
+      "fromNode": "foundation",
+      "toNode": "bottleneck",
+      "label": "فرضِ بدیهیات"
+    },
+    {
+      "id": "e8",
+      "fromNode": "ssoc",
+      "toNode": "reflect",
+      "label": "نیاز به بازتاب"
+    },
+    {
+      "id": "e9",
+      "fromNode": "bottleneck",
+      "toNode": "reflect",
+      "label": "پاسخ پیشنهادی"
+    },
+    {
+      "id": "e10",
+      "fromNode": "bottleneck",
+      "toNode": "arch",
+      "label": "صورت‌بندی معماری"
+    },
+    {
+      "id": "e11",
+      "fromNode": "arch",
+      "toNode": "prototype",
+      "label": "پیاده‌سازی محدود"
+    },
+    {
+      "id": "e12",
+      "fromNode": "logic",
+      "toNode": "code",
+      "label": "پیاده‌سازی محدود"
+    },
+    {
+      "id": "e13",
+      "fromNode": "code",
+      "toNode": "bottleneck",
+      "label": "مرزِ نمونه"
+    },
+    {
+      "id": "e14",
+      "fromNode": "bottleneck",
+      "toNode": "decision",
+      "label": "سرنخ فعلی"
+    },
+    {
+      "id": "e15",
+      "fromNode": "legend",
+      "toNode": "decision",
+      "label": "معنای یال‌ها"
+    }
+  ]
+}
