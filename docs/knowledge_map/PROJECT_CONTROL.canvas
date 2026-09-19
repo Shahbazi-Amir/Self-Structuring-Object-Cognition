@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    {"id":"goal","type":"text","text":"# هدف\nهستهٔ محدود، شفاف و آزمون‌پذیر برای بررسی اجزای فهم\n\nنه «هوش کامل» و نه ادعای فهم عمومی.","x":0,"y":0,"width":420,"height":220,"color":"6"},
+    {"id":"source","type":"text","text":"# نقطهٔ شروع\n۱۰ نوت‌بوک خام + یک فایل Python\n\nخواندن و اجرا: Jupyter / VS Code","x":540,"y":0,"width":390,"height":220,"color":"5"},
+    {"id":"verified","type":"text","text":"# وضعیت تأییدشده\nهستهٔ ۰٫۱، specification، کد و آزمون\n\nنتیجه: ۱۲/۱۲ در جهان کنترل‌شده","x":1050,"y":0,"width":400,"height":220,"color":"3"},
+    {"id":"now","type":"text","text":"# کارِ الآن\nبازیابی و تطبیق وضعیت ۰٫۲/۰٫۳ میان مک و GitHub\n\nتا روشن‌شدن آن، نسخهٔ جدید نسازیم.","x":1570,"y":0,"width":430,"height":220,"color":"1"},
+    {"id":"end","type":"text","text":"# معیار پایان مرحله\nیک وضعیت واقعی و مستند\nیک شاخهٔ کاری مشخص\nیک قدم بعدِ آزمون‌پذیر","x":2120,"y":0,"width":400,"height":220,"color":"4"},
+    {"id":"control","type":"file","file":"PROJECT_CONTROL.md","x":1050,"y":380,"width":450,"height":220,"color":"2"}
+  ],
+  "edges": [
+    {"id":"e1","fromNode":"goal","fromSide":"right","toNode":"source","toSide":"left","label":"از آرشیو"},
+    {"id":"e2","fromNode":"source","fromSide":"right","toNode":"verified","toSide":"left","label":"صورت‌بندی و آزمون"},
+    {"id":"e3","fromNode":"verified","fromSide":"right","toNode":"now","toSide":"left","label":"وضعیت نامطمئن"},
+    {"id":"e4","fromNode":"now","fromSide":"right","toNode":"end","toSide":"left","label":"پس از بازیابی"},
+    {"id":"e5","fromNode":"verified","fromSide":"bottom","toNode":"control","toSide":"top","label":"جزئیات"},
+    {"id":"e6","fromNode":"now","fromSide":"bottom","toNode":"control","toSide":"right","label":"قانون ادامه"}
+  ]
+}
