@@ -13,7 +13,7 @@
     {
       "id": "start",
       "type": "file",
-      "file": "00_شروع_از_مسئله.md",
+      "file": "research_argument_map/00_شروع_از_مسئله.md",
       "x": 0,
       "y": -400,
       "width": 360,
@@ -23,7 +23,7 @@
     {
       "id": "roadmap",
       "type": "file",
-      "file": "01_مسئله_و_نقشه_راه.md",
+      "file": "research_argument_map/01_مسئله_و_نقشه_راه.md",
       "x": 0,
       "y": -140,
       "width": 360,
@@ -33,7 +33,7 @@
     {
       "id": "ssoc",
       "type": "file",
-      "file": "02_چشم‌انداز_SSOC.md",
+      "file": "research_argument_map/02_چشم‌انداز_SSOC.md",
       "x": -500,
       "y": 150,
       "width": 360,
@@ -43,7 +43,7 @@
     {
       "id": "logic",
       "type": "file",
-      "file": "03_منطق_ارسطویی_به_عنوان_گزینه.md",
+      "file": "research_argument_map/03_منطق_ارسطویی_به_عنوان_گزینه.md",
       "x": 0,
       "y": 150,
       "width": 360,
@@ -53,7 +53,7 @@
     {
       "id": "foundation",
       "type": "file",
-      "file": "04_مبانی_فطرت_زبان_و_شناخت.md",
+      "file": "research_argument_map/04_مبانی_فطرت_زبان_و_شناخت.md",
       "x": 500,
       "y": 150,
       "width": 360,
@@ -63,7 +63,7 @@
     {
       "id": "bio",
       "type": "file",
-      "file": "05_مسیر_زیستی_و_حرکت_جوهری.md",
+      "file": "research_argument_map/05_مسیر_زیستی_و_حرکت_جوهری.md",
       "x": 920,
       "y": 150,
       "width": 360,
@@ -73,7 +73,7 @@
     {
       "id": "bottleneck",
       "type": "file",
-      "file": "06_هسته_بدیهیات_و_مسئله_ابهام.md",
+      "file": "research_argument_map/06_هسته_بدیهیات_و_مسئله_ابهام.md",
       "x": 260,
       "y": 470,
       "width": 420,
@@ -83,7 +83,7 @@
     {
       "id": "reflect",
       "type": "file",
-      "file": "07_بازتاب_و_اصلاح_خود.md",
+      "file": "research_argument_map/07_بازتاب_و_اصلاح_خود.md",
       "x": -250,
       "y": 790,
       "width": 360,
@@ -93,7 +93,7 @@
     {
       "id": "arch",
       "type": "file",
-      "file": "08_معماری_هسته_هوش.md",
+      "file": "research_argument_map/08_معماری_هسته_هوش.md",
       "x": 260,
       "y": 790,
       "width": 360,
@@ -103,7 +103,7 @@
     {
       "id": "prototype",
       "type": "file",
-      "file": "09_نمونه_معماری_SSOC.md",
+      "file": "research_argument_map/09_نمونه_معماری_SSOC.md",
       "x": 260,
       "y": 1060,
       "width": 360,
@@ -113,7 +113,7 @@
     {
       "id": "decision",
       "type": "file",
-      "file": "10_جمع‌بندی_مسیر_تصمیم.md",
+      "file": "research_argument_map/10_جمع‌بندی_مسیر_تصمیم.md",
       "x": 770,
       "y": 790,
       "width": 360,
@@ -123,7 +123,7 @@
     {
       "id": "code",
       "type": "file",
-      "file": "11_نمونه_منطق_ارسطویی.md",
+      "file": "research_argument_map/11_نمونه_منطق_ارسطویی.md",
       "x": -250,
       "y": 470,
       "width": 360,
@@ -133,7 +133,7 @@
     {
       "id": "legend",
       "type": "file",
-      "file": "12_واژه_نامه_رابطه‌ها.md",
+      "file": "research_argument_map/12_واژه_نامه_رابطه‌ها.md",
       "x": 1240,
       "y": 790,
       "width": 300,
